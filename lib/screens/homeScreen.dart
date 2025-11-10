@@ -6,17 +6,18 @@ class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
 
   List<Exam> getExams() {
+    var lab = 'лаб';
     return [
-      Exam(name: "Веб програмирање", dateTime: DateTime(2025, 2, 1, 9, 0), rooms: ["LAB 2", "LAB 3"]),
-      Exam(name: "Бази на податоци", dateTime: DateTime(2025, 2, 3, 10, 0), rooms: ["LAB 200в"]),
-      Exam(name: "Мобилни апликации", dateTime: DateTime(2025, 2, 5, 12, 0), rooms: ["LAB 1"]),
-      Exam(name: "Оперативни системи", dateTime: DateTime(2025, 2, 7, 9, 0), rooms: ["LAB 215"]),
-      Exam(name: "Вештачка интелигенција", dateTime: DateTime(2025, 2, 9, 11, 0), rooms: ["LAB 138"]),
-      Exam(name: "Компјутерски Мрежи", dateTime: DateTime(2025, 2, 11, 8, 0), rooms: ["LAB 138"]),
-      Exam(name: "Мрежна безбедност", dateTime: DateTime(2025, 2, 13, 10, 0), rooms: ["LAB 200аб"]),
-      Exam(name: "Алгоритми и податочни структури", dateTime: DateTime(2025, 1, 15, 9, 0), rooms: ["LAB 200в"]),
-      Exam(name: "Компјутерска графика", dateTime: DateTime(2025, 2, 16, 12, 0), rooms: ["LAB 215"]),
-      Exam(name: "Интернет технологии", dateTime: DateTime(2025, 1, 10, 8, 30), rooms: ["LAB 2"]),
+      Exam(name: "Веб програмирање", dateTime: DateTime(2025, 12, 1, 9, 0), rooms: ["лаб 2", "лаб 3"]),
+      Exam(name: "Бази на податоци", dateTime: DateTime(2025, 12, 12, 10, 0), rooms: ["лаб 200в"]),
+      Exam(name: "Мобилни инфромациски системи", dateTime: DateTime(2025, 12, 4, 12, 0), rooms: ["лаб 1"]),
+      Exam(name: "Оперативни системи", dateTime: DateTime(2025, 11, 30, 9, 0), rooms: ["лаб 215"]),
+      Exam(name: "Вештачка интелигенција", dateTime: DateTime(2025, 11, 28, 11, 0), rooms: ["лаб 138"]),
+      Exam(name: "Компјутерски Мрежи", dateTime: DateTime(2025, 11, 29, 8, 0), rooms: ["лаб 138"]),
+      Exam(name: "Мрежна безбедност", dateTime: DateTime(2025, 11, 20, 10, 0), rooms: ["лаб 200аб"]),
+      Exam(name: "Алгоритми и податочни структури", dateTime: DateTime(2025, 12, 12, 9, 0), rooms: ["лаб 200в"]),
+      Exam(name: "Компјутерска графика", dateTime: DateTime(2025, 11, 11, 12, 0), rooms: ["лаб 215"]),
+      Exam(name: "Интернет технологии", dateTime: DateTime(2025, 12, 12, 8, 30), rooms: ["лаб 2"]),
     ];
   }
 

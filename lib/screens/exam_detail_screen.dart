@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import '../models/exam.dart';
 
@@ -47,12 +48,12 @@ class ExamDetailScreen extends StatelessWidget {
         text: TextSpan(
           text: "$label: ",
           style: const TextStyle(
-              color: Colors.black, fontWeight: FontWeight.bold, fontSize: 16),
+              color: Color.fromARGB(255, 12, 12, 12), fontWeight: FontWeight.bold, fontSize: 16),
           children: [
             TextSpan(
               text: value,
               style: const TextStyle(
-                  color: Colors.black87,
+                  color: Color.fromARGB(221, 7, 7, 7),
                   fontWeight: FontWeight.normal,
                   fontSize: 16),
             ),
